@@ -4,4 +4,13 @@ div{
     border: 10px solid tomato;
     padding: 10px;
     text-align: justify;
+     margin: 10px;
+    border-radius: 10px;
+}
+.file{
+    color: brown;
+    font-weight: bolder;
+    /* margin: 10px; */
+    /* border-radius: 10px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
