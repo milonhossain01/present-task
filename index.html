@@ -6,6 +6,20 @@
     <title>Document</title>
     <!-- <link rel="stylesheet" href="blog.css"> -->
      <link rel="stylesheet" href="style/blog.css">
+     <style>
+        input[type=submit]{
+            background-color: darkgreen;
+            color: aliceblue;
+        }
+        input[type=reset]{
+            background-color: darkgreen;
+            color: aliceblue;
+
+        }
+        input[required]{
+            border: 2px solid black;
+        }
+     </style>
 </head>
 <body>
     <div>
@@ -17,6 +31,17 @@
             <li>Web Development</li>
             <li>Apps Development</li>
         </ol>
+        <form action="">
+            <input type="text" placeholder="Enter Your Name" name="" id="" required> <br>
+            <br>
+            <input type="email" name="" placeholder="Enter Your Email" id="" required> <br>
+            <br>
+            <input type="password" name="" placeholder="Enter Your Password" id="" required> <br>
+            <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <input type="checkbox" name="" id="">
+        </form>
     
 </body>
 </html>
